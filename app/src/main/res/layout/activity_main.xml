@@ -30,8 +30,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:text="TextView"
-                tools:text="@string/euro_symbol" />
+                android:text="@string/euro_symbol" />
 
             <Button
                 android:id="@+id/buttonToDollar"
@@ -39,8 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="onClickToDollars"
-                android:text="Button"
-                tools:text="@string/button_to_dollars" />
+                android:text="@string/button_to_dollars" />
 
         </LinearLayout>
 
@@ -62,8 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:text="TextView"
-                tools:text="@string/dollar_symbol" />
+                android:text="@string/dollar_symbol" />
 
             <Button
                 android:id="@+id/buttonToEuros"
@@ -71,8 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="onClickToEuros"
-                android:text="Button"
-                tools:text="@string/button_to_euros" />
+                android:text="@string/button_to_euros" />
 
         </LinearLayout>
     </LinearLayout>
